@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
-import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
         {}
         {!contactSelected ? (
           <>
-            <Gallery currentCategory={currentCategory}></Gallery>
+            <Portfolio currentCategory={currentCategory}></Portfolio>
             <About></About>
             <Resume></Resume>
           </>
