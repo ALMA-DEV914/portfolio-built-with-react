@@ -1,49 +1,44 @@
 import React, {useState} from 'react';
 import './App.css';
 import About from './components/About';
-import Nav from './components/Nav';
-import Contact from './components/Contact';
+import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
-
+import Header from './components/Header';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
+  const [currentCategory, setCurrentCategory] = useState("porfolio");
+const displaySection = () => {
+  switch (currentCategory) {
+    case "about":
+      return <About />;
+    case "portfolio":
+      return <Portfolio />;
+    case "contact":
+      return <ContactForm />;
+    case "resume":
+      return <Resume />;
+    default:
+      return null;
+  }
+};
 
-  const [categories] = useState([
-    {
-      name: "project",
-      description:
-        "Photos and links of all the projects",
-    },
-    { name: "homeworks", description: "Photos and links of all my homeworks" },
-    
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  return (
+return (
+  <div>
     <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
+      <Header
         currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-        
-      ></Nav>
-      <main>
-        {}
-        {!contactSelected ? (
-          <>
-            <Portfolio currentCategory={currentCategory}></Portfolio>
-            <About></About>
-            <Resume></Resume>
-          </>
-        ): (
-          <Contact></Contact>
-          )}
-      </main>
+        setCurrentCategory={setCurrentCategory}
+      ></Header>
     </div>
-  );
+    <div>
+      <div>{displaySection()}</div>
+    </div>
+    <div>
+      
+    </div>
+  </div>
+);
 }
+
 export default App;
