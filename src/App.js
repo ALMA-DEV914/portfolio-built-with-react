@@ -8,10 +8,10 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
-  const [currentCategory, setCurrentCategory] = useState("porfolio");
+  const [currentCategory, setCurrentCategory] = useState("about");
+
 const displaySection = () => {
   switch (currentCategory) {
-    
     case "about":
       return <About />;
     case "portfolio":

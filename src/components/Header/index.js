@@ -1,7 +1,6 @@
 import React from 'react';
 import Nav from "../Nav";
 
-
 function Header(props) {
   const { currentCategory, setCurrentCategory } = props;
 
@@ -16,7 +15,6 @@ function Header(props) {
           setCurrentCategory={setCurrentCategory}
         ></Nav>
       </div>
-
     </header>
   );
 }
