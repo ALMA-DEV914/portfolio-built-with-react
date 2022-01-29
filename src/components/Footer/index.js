@@ -1,12 +1,11 @@
 import React from "react";
 
+
 function Footer(){
   return (
-   
       <footer className="footer">
       <div>
         <a href="https://github.com/alma-dev914" target="_blank" rel="noreferrer">
-          
         </a>
       </div>
       <div>

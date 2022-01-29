@@ -1,13 +1,14 @@
 import React from 'react';
 import Nav from "../Nav";
 
+
 function Header(props) {
   const { currentCategory, setCurrentCategory } = props;
 
   return (
     <header>
       <div>
-        <h1>Porfolio with REACT</h1>
+        <h1>Alma Braun</h1>
       </div>
       <div>
         <Nav
@@ -15,6 +16,7 @@ function Header(props) {
           setCurrentCategory={setCurrentCategory}
         ></Nav>
       </div>
+
     </header>
   );
 }

@@ -5,11 +5,13 @@ import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   const [currentCategory, setCurrentCategory] = useState("porfolio");
 const displaySection = () => {
   switch (currentCategory) {
+    
     case "about":
       return <About />;
     case "portfolio":
@@ -35,7 +37,7 @@ return (
       <div>{displaySection()}</div>
     </div>
     <div>
-      
+      <Footer></Footer>
     </div>
   </div>
 );
