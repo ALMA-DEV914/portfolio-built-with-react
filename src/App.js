@@ -3,6 +3,9 @@ import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
 import Gallery from './components/Gallery';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -14,9 +17,6 @@ function App() {
         "Photos and links of all the projects",
     },
     { name: "homeworks", description: "Photos and links of all my homeworks" },
-    {
-      name: "resume", description: "Resume"
-    },
     
   ]);
 
@@ -29,10 +29,19 @@ function App() {
         currentCategory={currentCategory}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
+        
       ></Nav>
       <main>
-        <Gallery></Gallery>
-        <About></About>
+        {}
+        {!contactSelected ? (
+          <>
+            <Gallery currentCategory={currentCategory}></Gallery>
+            <About></About>
+            <Resume></Resume>
+          </>
+        ): (
+          <Contact></Contact>
+          )}
       </main>
     </div>
   );

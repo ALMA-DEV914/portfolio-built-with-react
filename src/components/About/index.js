@@ -1,11 +1,9 @@
 import React from 'react';
- import coverImage from '../../assets/cover/z1.jpg';
 
 function About(){
     return(
         <section className='my-5'>
             <h1 id='about'>About me</h1>
-            <img src={coverImage} className="my-2" style={{ width: "250px",  }} alt="cover" />
            <div className='my-2'>
            <h1>FULL STACK WEB DEVELOPER</h1>
           <p>I'm higly motivated and creative with passion for great user experience. I have completed Full Stack Web Development from UC Berkeley Bootcamp.</p>

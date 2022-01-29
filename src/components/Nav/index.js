@@ -9,6 +9,9 @@ function Nav(props) {
   
       contactSelected,
       setContactSelected,
+
+      resumeSelected,
+      setResumeSelected
     } = props;
 
     useEffect(() => {
@@ -32,6 +35,9 @@ function Nav(props) {
               >
                 About me
               </a>
+            </li>
+            <li className={`mx-2 ${resumeSelected && "navActive"}`}>
+                <a data-testid="resume" href='#resume' onClick={() => setResumeSelected(false)}>Resume</a>
             </li>
             <li className={`mx-2 ${contactSelected && "navActive"}`}>
               <span onClick={() => setContactSelected(true)}>Contact</span>
