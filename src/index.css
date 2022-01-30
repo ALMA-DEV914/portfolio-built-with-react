@@ -304,3 +304,15 @@ a {
 .navActive {
   color: var(--secondary);
 }
+.footer{
+  text-align: center;
+  padding: 15px;
+  background-color: var(--darker);
+}
+.footer a{
+  padding: 12px;
+  font-size: 30px;
+  color: var(--light);
+ 
+}
+
