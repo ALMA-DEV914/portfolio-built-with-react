@@ -55,10 +55,11 @@ function Portfolio() {
   ];
   return (
     
-    <div>
+    <div className="projects">
       <h1 className="port">My Sample Websites</h1>
       <ProjectList projects={projects} />
     </div>
+  
   );
 }
 
