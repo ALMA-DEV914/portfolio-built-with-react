@@ -3,13 +3,13 @@ main {
 	margin: 0 auto;
 	max-width: 85%;
   text-align: center;
-  padding: 30px 30px;
+  padding: 150px 30px;
   
 }
 :root {
   --primary: #8c54ff;
   --secondary: #F3A847;
-  --tertiary: #46daa1;
+  --tertiary: #47cca0;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -100,7 +100,8 @@ a:hover {
 header {
   background: var(--dark);
   padding: 20px;
-  
+  position: fixed;
+  width: 100%;
 }
 
 header a {
@@ -182,7 +183,7 @@ article{
 }
 article div{
   
-  padding: 15px;
+  padding: 20px;
   margin: 10px;
   background-color: var(--darker);
 }
@@ -319,4 +320,11 @@ a {
     width: 100%;
     margin: 0 auto;
   }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+  }
+
 }
