@@ -349,6 +349,10 @@ a {
   main{
     width: 100%;
     padding: 12px 8px;
+    
+  }
+  .email{
+    width: 100%;
   }
   form{
     width: 100%;
