@@ -3,10 +3,15 @@ import coverImage from "../../assets/cover/z1.jpg";
 function About(){
     return(
         <main>
-        <section className='my-5'>
-            <h1 id='about'>About me</h1>
-            <img src={coverImage} className="my-2" alt="me" style={{width: '250px'}} />
-           <div className='my-2'>
+        <section className='flex-row'>
+            <div className='myphoto'>
+            <h1 id='about'>Hi! Alma here!</h1>
+            <p>I am looking forward to speak with you.</p>
+            <img src={coverImage} className="my-2" id='me' alt="me" style={{width: '250px'}} />
+            
+            </div>
+
+           <div className='description'>
            <h1>FULL STACK WEB DEVELOPER</h1>
           <p>I'm higly motivated and creative with passion for great user experience. I have completed Full Stack Web Development from UC Berkeley Bootcamp.</p>
           <p>My mission is to ensure the best relationship with clients, both during and after their goals have been met.</p>
