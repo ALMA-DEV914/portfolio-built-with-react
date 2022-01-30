@@ -302,7 +302,28 @@ textarea {
   margin-bottom: 50px;
   cursor: pointer;
 }
+#icons img{
+  margin: 0 10px;
+  border: none;
+  padding: 4px;
+  
+}
+.btn{
+  border: 1px solid var(--darker);
+  margin: 12px 18px;
+  padding: 8px 16px;
+  border-radius: 50px;
+  background-color: var(--darker);
+}
+#icons{
+  justify-content: center;
+  font-family: Verdana, sans-serif;
+  }
 
+#icons span{
+    font-size: 12px;
+    
+  }
 button {
 	background: var(--tertiary);
 	border: 0;
