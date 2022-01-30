@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <main>
+    <section
+      class="resume"
+    >
+      <h1>
+        My Resume
+      </h1>
+      <br />
+      <a
+        download=""
+        href="Resume.pdf"
+        id="pdf"
+      >
+        Download my resume
+      </a>
+      <article>
+        <div>
+          <h2>
+            Front End Proficiences
+          </h2>
+          <ul>
+            <li>
+              HTML
+            </li>
+            <li>
+              CSS
+            </li>
+            <li>
+              Bootstrap
+            </li>
+            <li>
+              JAVASCRIPT
+            </li>
+            <li>
+              JQUERY
+            </li>
+            <li>
+              Responsive Design
+            </li>
+            <li>
+              REACT
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>
+             Back End Proficiences
+          </h2>
+          <ul>
+            <li>
+              API's
+            </li>
+            <li>
+              NODE.JS
+            </li>
+            <li>
+              MySQL/NoSQL Sequelize
+            </li>
+            <li>
+              MONGODB database
+            </li>
+            <li />
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+</DocumentFragment>
+`;

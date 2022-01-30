@@ -348,9 +348,8 @@ a {
 @media screen and (max-width:600px){
   main{
     width: 100%;
-    padding: 12px 8px;
-    
-  }
+    padding: 12px;
+}
   .email{
     width: 100%;
   }
@@ -381,5 +380,6 @@ a {
   .myphoto{
     margin: 15px auto;
   }
+  
 
 }
