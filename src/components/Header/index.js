@@ -5,11 +5,11 @@ function Header(props) {
   const { currentCategory, setCurrentCategory } = props;
 
   return (
-    <header className='flex-row px-1'>
+    <header>
       <div>
         <h1 className='header' >Alma Braun</h1>
       </div>
-      <div>
+      <div className='nav'>
         <Nav
           currentCategory={currentCategory}
           setCurrentCategory={setCurrentCategory}

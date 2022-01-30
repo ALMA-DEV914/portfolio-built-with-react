@@ -37,7 +37,8 @@ return (
       <div>{displaySection()}</div>
     </div>
     <div>
-      <Footer></Footer>
+      <Footer>
+      </Footer>
     </div>
   </div>
 );
