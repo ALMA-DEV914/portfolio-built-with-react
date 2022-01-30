@@ -9,7 +9,7 @@ main {
 :root {
   --primary: #8c54ff;
   --secondary: #F3A847;
-  --tertiary: #47cca0;
+  --tertiary: #0faa76;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -86,9 +86,7 @@ h6 {
   font-size: 1rem;
 }
 #contact{
-  background-color: var(--light);
-  opacity: .8;
-  color: var(--darker);
+ color: var(--darker);
 }
 .myphoto{
   background-color: var(--darker);
@@ -100,19 +98,17 @@ h6 {
   padding: 20px;
   background-color: var(--light);
   color: #000;
-  opacity: .8;
+  
 }
 .projects{
   background-color: var(--light);
-  opacity: .8;
   color: var(--darker);
+  padding: 20px;
 }
 label{
   font-size: 1.5em;
 }
 .resume{
-  background-color: var(--light);
-  opacity: .8;
   color: var(--darker);
 }
 p {
@@ -228,9 +224,12 @@ article div{
   padding: 20px;
   margin: 10px;
   border-radius: 12px;
+  background-color: var(--darker);
+  color: var(--light);
 }
-section{
-  padding: 20px;
+#pdf{
+  background-color: var(--light);
+  padding: 8px 18px;
 }
 textarea {
 	width: 100%;
@@ -343,6 +342,8 @@ a {
 .email{
   padding: 20px;
   text-align: center;
+  width: 40%;
+  margin: 0 auto;
 }
 @media screen and (max-width:600px){
   main{

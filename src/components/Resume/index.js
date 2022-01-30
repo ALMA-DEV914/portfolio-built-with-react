@@ -4,8 +4,8 @@ function Resume() {
   return (
     <main>
     <section className="resume">
-      <h1>My Resume</h1>
-      <a href={require("../../assets/Resume.pdf")} download>
+      <h1>My Resume</h1><br></br>
+      <a href={require("../../assets/Resume.pdf")} id="pdf" download>
         Download my resume
       </a>
       <article>

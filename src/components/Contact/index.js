@@ -48,6 +48,11 @@ function ContactForm() {
     <main>
     <section id="contact">
       <h1 data-testid="h1tag">Contact me</h1>
+      <div className="email">
+        <p id="pdf">Email Address: <a href="mailto:aungonalna58@gmail.com">
+          aungonalna58@gmail.com</a><br></br>
+          Contact Number: 7757425989</p>
+      </div>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -83,12 +88,7 @@ function ContactForm() {
         )}
         <button data-testid="button" type="submit">
       Submit</button>
-      </form><br></br>
-      <div className="email">
-        <p>Email Address: <a href="mailto:aungonalna58@gmail.com">
-          aungonalna58@gmail.com</a></p>
-          <p>Contact Number: 7757425989</p>
-      </div>
+      </form>
       </section>
       </main>
   );
