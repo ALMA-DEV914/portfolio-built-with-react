@@ -45,6 +45,7 @@ function ContactForm() {
   //   console.log(formState);
   // JSX
   return (
+    <main>
     <section>
       <h1 data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
@@ -67,7 +68,7 @@ function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label htmlFor="message">Message:</label><br></br>
           <textarea
             name="message"
             defaultValue={message}
@@ -81,9 +82,10 @@ function ContactForm() {
           </div>
         )}
         <button data-testid="button" type="submit">
-      submit</button>
+      Submit</button>
       </form>
       </section>
+      </main>
   );
         }
 export default ContactForm;

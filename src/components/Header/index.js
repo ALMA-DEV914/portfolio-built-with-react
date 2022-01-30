@@ -5,9 +5,9 @@ function Header(props) {
   const { currentCategory, setCurrentCategory } = props;
 
   return (
-    <header>
+    <header className='flex-row px-1'>
       <div>
-        <h1>Alma Braun</h1>
+        <h1 className='header' >Alma Braun</h1>
       </div>
       <div>
         <Nav

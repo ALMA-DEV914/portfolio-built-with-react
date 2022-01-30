@@ -2,6 +2,7 @@ import React from "react";
 
 function Resume() {
   return (
+    <main>
     <section>
       <h1>My Resume</h1>
       <a href={require("../../assets/Resume.pdf")} download>
@@ -30,6 +31,7 @@ function Resume() {
           </ul>
       </div>
     </section>
+    </main>
   );
 }
 

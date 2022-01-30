@@ -3,13 +3,14 @@ import React from "react";
 function ProjectList(props) {
   const { projects = [] } = props;
   return (
+    <main>
     <div>
-      <ul>
+      <ul className="flex-row ">
         {projects.map((project) => (
           <li key={project.title}>
             <h3>{project.title}</h3>
           
-            <img alt="projects" 
+            <img alt="projects" className="img-thumbnail mx-2"
               src={require(`../../assets/${project.image}`)}
             
             ></img>
@@ -24,6 +25,7 @@ function ProjectList(props) {
         ))}
       </ul>
     </div>
+    </main>
   );
 }
 
