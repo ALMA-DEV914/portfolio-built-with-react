@@ -83,7 +83,12 @@ function ContactForm() {
         )}
         <button data-testid="button" type="submit">
       Submit</button>
-      </form>
+      </form><br></br>
+      <div className="email">
+        <p>Email Address: <a href="mailto:aungonalna58@gmail.com">
+          aungonalna58@gmail.com</a></p>
+          <p>Contact Number: 7757425989</p>
+      </div>
       </section>
       </main>
   );
