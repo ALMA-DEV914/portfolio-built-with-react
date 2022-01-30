@@ -55,7 +55,7 @@ function Portfolio() {
   ];
   return (
     
-    <div className="projects">
+    <div>
       <h1 className="port">My Sample Websites</h1>
       <ProjectList projects={projects} />
     </div>

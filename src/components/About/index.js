@@ -8,10 +8,8 @@ function About(){
             <h1 id='about'>Hi! Alma here!</h1>
             <p>I am looking forward to speak with you.</p>
             <img src={coverImage} className="my-2" id='me' alt="me" style={{width: '250px'}} />
-            
-            </div>
-
-           <div className='description'>
+        </div>
+       <div className='description'>
            <h1>FULL STACK WEB DEVELOPER</h1>
           <p>I'm higly motivated and creative with passion for great user experience. I have completed Full Stack Web Development from UC Berkeley Bootcamp.</p>
           <p>My mission is to ensure the best relationship with clients, both during and after their goals have been met.</p>

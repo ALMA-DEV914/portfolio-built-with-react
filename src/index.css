@@ -3,7 +3,7 @@ main {
 	margin: 0 auto;
 	max-width: 85%;
   text-align: center;
-  padding: 150px 30px;
+  padding: 200px 30px;
   
 }
 :root {
@@ -37,10 +37,12 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--primary);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--light);
   font-family: 'Poiret One', cursive;
-  height: 100vh;
+  background-image: url(https://wallpapercave.com/wp/eas6Et3.jpg);
+  overflow: auto;
 }
 
 h1,
@@ -53,10 +55,12 @@ h6 {
   font-weight: 600;
   margin: 5px 0;
   line-height: 1.25;
+  
 }
 
 h1 {
   font-size: 3.25rem;
+  
 }
 
 h2 {
@@ -81,6 +85,11 @@ h5 {
 h6 {
   font-size: 1rem;
 }
+#contact{
+  background-color: var(--light);
+  opacity: .8;
+  color: var(--darker);
+}
 .myphoto{
   background-color: var(--darker);
   padding: 15px;
@@ -89,6 +98,22 @@ h6 {
 .description{
   width: 60%;
   padding: 20px;
+  background-color: var(--light);
+  color: #000;
+  opacity: .8;
+}
+.projects{
+  background-color: var(--light);
+  opacity: .8;
+  color: var(--darker);
+}
+label{
+  font-size: 1.5em;
+}
+.resume{
+  background-color: var(--light);
+  opacity: .8;
+  color: var(--darker);
 }
 p {
   font-size: 1.5rem;
@@ -110,6 +135,8 @@ header {
   padding: 20px;
   position: fixed;
   width: 100%;
+  overflow: hidden;
+  top: 0;
 }
 
 header a {
@@ -118,6 +145,7 @@ header a {
 }
 .nav{
   margin-left: 20%;
+ 
 }
 .port{
   text-align: center;
@@ -153,6 +181,8 @@ form {
   text-align: left;
   border: 10px solid var(--darker);
   padding: 20px;
+  background-color: var(--tertiary);
+  color: var(--light);
 }
 
 input {
@@ -197,9 +227,11 @@ article div{
   border: 10px solid var(--secondary);
   padding: 20px;
   margin: 10px;
-  background-color: var(--darker);
+  border-radius: 12px;
 }
-
+section{
+  padding: 20px;
+}
 textarea {
 	width: 100%;
 	height: 120px;
@@ -273,7 +305,7 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background: var(--tertiary);
 	border: 0;
 	border-radius: 5px;
 	color: #fff;

@@ -4,7 +4,7 @@ function ProjectList(props) {
   const { projects = [] } = props;
   return (
     <main>
-    <div>
+    <div className="projects">
       <ul className="flex-row">
         {projects.map((project) => (
           <li key={project.title}>

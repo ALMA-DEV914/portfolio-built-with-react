@@ -3,7 +3,7 @@ import React from "react";
 function Resume() {
   return (
     <main>
-    <section>
+    <section className="resume">
       <h1>My Resume</h1>
       <a href={require("../../assets/Resume.pdf")} download>
         Download my resume
