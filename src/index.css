@@ -139,7 +139,7 @@ span[role="img"] {
 
 form {
   width: 50%;
-  margin: 0 auto;
+  margin: 30px auto;
   text-align: left;
   border: 10px solid var(--darker);
   padding: 20px;
@@ -252,11 +252,6 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
-
 .img-thumbnail {
   width: auto;
   height: 300px;
@@ -301,7 +296,7 @@ a {
  
 }
 .email{
-  padding: 15px;
+  padding: 20px;
   text-align: center;
 }
 @media screen and (max-width:600px){

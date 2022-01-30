@@ -20,7 +20,6 @@ function ProjectList(props) {
             <img alt="projects" className="img-thumbnail mx-2"
               src={require(`../../assets/${project.image}`)}
             ></img>
-  
           </li>
         ))}
       </ul>
