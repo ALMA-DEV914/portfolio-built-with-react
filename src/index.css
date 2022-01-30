@@ -49,8 +49,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Verdana', sans-serif;
-  font-weight: 800;
+  font-family: 'Georgia', sans-serif;
+  font-weight: 600;
   margin: 5px 0;
   line-height: 1.25;
 }
@@ -104,7 +104,10 @@ header {
 
 header a {
   color: var(--light);
-
+   
+}
+.nav{
+  margin-left: 20%;
 }
 .port{
   text-align: center;
@@ -168,6 +171,19 @@ nav a:hover {
 nav  li {
   cursor: pointer;
   
+}
+article{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px auto;
+  justify-content: center;
+}
+article div{
+  
+  padding: 15px;
+  margin: 10px;
+  background-color: var(--darker);
 }
 
 textarea {

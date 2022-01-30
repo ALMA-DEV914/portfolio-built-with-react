@@ -10,6 +10,18 @@ function Portfolio() {
       deployment: "https://aqueous-cove-81545.herokuapp.com",
     },
     {
+      title: "Menu Underground Hunt",
+      image: "Menu-Hunt.png",
+      repository: "https://github.com/ALMA-DEV914/Menu-Underground-Hunt",
+      deployment: "https://still-lowlands-55484.herokuapp.com/"
+    },
+    {
+      title: "Full-Stack Web Application",
+      image: "Full-Stack.png",
+      repository: "https://github.com/ALMA-DEV914/fixup-job-site-full-stack",
+      deployment: "https://fixup-job.herokuapp.com/jobs",
+    },
+    {
       title: "Weather Dashboard",
       image: "Weather-Dashboard.png",
       repository: "https://github.com/ALMA-DEV914/Weather-Dashboard",
@@ -34,23 +46,12 @@ function Portfolio() {
       deployment: "https://serene-escarpment-69823.herokuapp.com/",
     },
     {
-      title: "Full-Stack Web Application",
-      image: "Full-Stack.png",
-      repository: "https://github.com/ALMA-DEV914/fixup-job-site-full-stack",
-      deployment: "https://fixup-job.herokuapp.com/jobs",
-    },
-    {
       title: "MVC Tech Blog",
       image:"MVC-Tech-Blog.png",
       repository:"https://github.com/ALMA-DEV914/MVC-TECH-BLOG",
       deployment: "https://mysterious-brook-54092.herokuapp.com/"
     },
-    {
-      title: "Menu Underground Hunt",
-      image: "Menu-Hunt.png",
-      repository: "https://github.com/ALMA-DEV914/Menu-Underground-Hunt",
-      deployment: "https://still-lowlands-55484.herokuapp.com/"
-    },
+  
   ];
   return (
     

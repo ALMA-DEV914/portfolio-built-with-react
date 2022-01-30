@@ -8,6 +8,7 @@ function Resume() {
       <a href={require("../../assets/Resume.pdf")} download>
         Download my resume
       </a>
+      <article>
       <div>
           <h2>Front End Proficiences</h2>
           <ul>
@@ -30,6 +31,7 @@ function Resume() {
               <li></li>
           </ul>
       </div>
+      </article>
     </section>
     </main>
   );
