@@ -28,6 +28,7 @@ function Resume() {
               <li>NODE.JS</li>
               <li>MySQL/NoSQL Sequelize</li>
               <li>MONGODB database</li>
+              <li>PWA(Progressive Web App)</li>
               <li></li>
           </ul>
       </div>

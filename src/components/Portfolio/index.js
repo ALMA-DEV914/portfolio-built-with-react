@@ -8,7 +8,7 @@ function Portfolio() {
       image: "Budget-Tracker-PWA.png",
       repository: "https://github.com/ALMA-DEV914/PWA-Budget-Tracker",
       deployment: "https://aqueous-cove-81545.herokuapp.com",
-      description: "Built with HTML, CSS, JAVASCRIPT, MONGOOSE/MONGODB, EXPRESS.jS and NODE packages. This appliaction is a Progressive Web Application that is installable in mobile devices and can be used offline."
+      description: "Built with HTML, CSS, JAVASCRIPT, MONGOOSE/MONGODB, EXPRESS.jS and NODE packages. This application is a Progressive Web Application that is installable in mobile devices and can be used offline."
     },
     {
       title: "Menu Underground Hunt",
@@ -62,7 +62,6 @@ function Portfolio() {
   
   ];
   return (
-    
     <div>
       <ProjectList projects={projects} />
     </div>

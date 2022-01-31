@@ -1,7 +1,7 @@
 
 main {
-	margin: 5% auto;
-  width: 85%;
+	margin: 4% auto;
+  width: 90%;
   padding: 50px 30px;
   text-align: center;
 }
@@ -87,6 +87,7 @@ h6 {
 }
 #contact{
  color: var(--darker);
+
 }
 .myphoto{
   background-color: var(--darker);
@@ -110,10 +111,11 @@ h6 {
   padding: 20px;
   background-color: var(--light);
   color: #000;
-  
+  opacity: .8;
 }
 .projects{
   color: var(--light);
+
 }
 .projects ul li{
   background-color: var(--dark);
@@ -178,7 +180,6 @@ button[disabled] {
 
 img {
   max-width: 100%;
-  border: 10px solid var(--secondary);
   border-radius: 8px;
 }
 
@@ -194,6 +195,7 @@ form {
   padding: 20px;
   background-color: var(--tertiary);
   color: var(--light);
+  border-radius: 15px;
 }
 
 input {
@@ -213,7 +215,7 @@ input:focus {
 
 li {
   list-style: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   
 }
 .logo{
@@ -233,6 +235,7 @@ nav  li {
 }
 #me{
   border-radius: 100%;
+  border: 10px solid var(--secondary);
 }
 article{
   display: flex;
@@ -240,15 +243,12 @@ article{
   padding: 20px;
   margin: 20px auto;
   justify-content: center;
+  background-color:var(--light);
+  width: 50%;
+  opacity: .8;
+  border-radius: 15px;
 }
-article div{
-  border: 10px solid var(--secondary);
-  padding: 20px;
-  margin: 10px;
-  border-radius: 12px;
-  background-color: var(--dark);
-  color: var(--light);
-}
+
 #pdf{
   background-color: var(--light);
   padding: 8px 18px;
@@ -273,44 +273,21 @@ textarea {
   justify-content: flex-end;
 }
 
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
 }
 
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
 
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
 }
 
-.my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
-}
-
-.px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
-}
 
 .px-2 {
   padding-right: var(--spacing-two);
   padding-left: var(--spacing-two);
-}
-
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
 }
 
 .py-2 {
@@ -423,6 +400,7 @@ a {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+
 }
 @media screen and (max-width:600px){
   main{
@@ -470,5 +448,8 @@ a {
     font-size: 11px;
     padding: 0;
     margin:0;
+  }
+  article{
+    width: 100%;
   }
 }
