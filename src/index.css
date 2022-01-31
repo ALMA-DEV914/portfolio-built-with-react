@@ -462,4 +462,13 @@ a {
   .myphoto{
     margin: 15px auto;
   }
+  .overlay{
+      font-family: Verdana, sans-serif;
+      
+  }
+  .text{
+    font-size: 11px;
+    padding: 0;
+    margin:0;
+  }
 }
