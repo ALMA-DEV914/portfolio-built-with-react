@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 ## The Link and snapshot
-[The deployed Porfolio]( https://alma-dev914.github.io/portfolio-built-with-react/)
+[The deployed Portfolio]( https://alma-dev914.github.io/portfolio-built-with-react/)
 
 <img width="1790" alt="Screen Shot 2022-01-30 at 9 37 07 PM" src="https://user-images.githubusercontent.com/65073138/151744325-55a37647-9cef-44ad-a41c-0cde310db09c.png">
 
