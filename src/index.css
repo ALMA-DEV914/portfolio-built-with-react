@@ -1,10 +1,9 @@
 
 main {
-	margin: 0 auto;
-	max-width: 85%;
+	margin: 5% auto;
+  width: 85%;
+  padding: 50px 30px;
   text-align: center;
-  padding: 200px 30px;
-  
 }
 :root {
   --primary: #8c54ff;
@@ -93,7 +92,19 @@ h6 {
   background-color: var(--darker);
   padding: 15px;
   border-radius: 12px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
 .description{
   width: 60%;
   padding: 20px;
@@ -105,10 +116,11 @@ h6 {
   color: var(--light);
 }
 .projects ul li{
-  background-color: var(--darker);
+  background-color: var(--dark);
   margin: 20px 8px;
   border: 5px solid var(--light);
   border-radius: 15px;
+  
 }
 label{
   font-size: 1.5em;
@@ -134,10 +146,8 @@ a:hover {
 header {
   background: var(--dark);
   padding: 20px;
-  position: fixed;
   width: 100%;
-  overflow: hidden;
-  top: 0;
+  
 }
 
 header a {
@@ -206,7 +216,14 @@ li {
   font-size: 2rem;
   
 }
-
+.logo{
+  display: flex;
+}
+.logo img{
+  border: none;
+  width: 80px;
+  height: 60px;
+}
 nav a:hover {
   text-decoration: none;
 }
@@ -229,7 +246,7 @@ article div{
   padding: 20px;
   margin: 10px;
   border-radius: 12px;
-  background-color: var(--darker);
+  background-color: var(--dark);
   color: var(--light);
 }
 #pdf{
@@ -370,6 +387,42 @@ a {
   text-align: center;
   width: 40%;
   margin: 0 auto;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: var(--light);
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: var(--darker);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 @media screen and (max-width:600px){
   main{

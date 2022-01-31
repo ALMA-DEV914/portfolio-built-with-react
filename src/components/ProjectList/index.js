@@ -6,15 +6,20 @@ function ProjectList(props) {
   const { projects = [] } = props;
   return (
     <main>
-    
-    <div className="projects">
+      <h1>Projects|Portfolios</h1>
+     <div className="projects">
       <ul className="flex-row">
         {projects.map((project) => (
           <li key={project.title}>
             <h3>{project.title}</h3><br></br>
+            <div className="container">
             <img alt="projects" className="img-thumbnail mx-2"
               src={require(`../../assets/${project.image}`)}
             ></img>
+            <div className="overlay">
+              <div className="text">{project.description}</div>
+            </div>
+            </div>
             <div className="flex-row" id="icons">
             <p className="btn"><a href={project.deployment} target="_blank" rel="noreferrer">
               {" "}<span>View the App</span>
