@@ -1,7 +1,15 @@
 # Getting Started with Create React App
-[The deployed Porfolio]( https://alma-dev914.github.io/portfolio-built-with-react/)
+## The Link and snapshot
+[The<img width="1790" alt="Screen Shot 2022-01-30 at 9 37 07 PM" src="https://user-images.githubusercontent.com/65073138/151744325-55a37647-9cef-44ad-a41c-0cde310db09c.png">
+ deployed Porfolio]( https://alma-dev914.github.io/portfolio-built-with-react/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="1791" alt="Screen Shot 2022-01-30 at 9 37 30 PM" src="https://user-images.githubusercontent.com/65073138/151744334-c80c02fb-5d11-411a-a9eb-1da174d42401.png">
+
+<img width="1792" alt="Screen Shot 2022-01-30 at 9 38 11 PM" src="https://user-images.githubusercontent.com/65073138/151744344-314695e1-057d-49a0-984f-452821d62810.png">
+
+<img width="1792" alt="Screen Shot 2022-01-30 at 9 38 45 PM" src="https://user-images.githubusercontent.com/65073138/151744349-c2dbdabf-c5cb-4625-be40-78c9ebff01af.png">
+This project was bootstrapped with [Create React App](https
+://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
