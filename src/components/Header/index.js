@@ -1,6 +1,10 @@
+//import the react
 import React from 'react';
+//import the Nav compponent 
 import Nav from "../Nav";
+//import thye logo 
 import logoImage from '../../assets/cover/logo-dark.png';
+//initiate the Header component and associated Nav component
 function Header(props) {
   const { currentCategory, setCurrentCategory } = props;
 
@@ -18,5 +22,5 @@ function Header(props) {
     </header>
   );
 }
-
+//export the Header default
 export default Header;

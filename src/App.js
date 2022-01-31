@@ -1,3 +1,5 @@
+// import all associated components to build the appliaction
+//import the React and state package
 import React, {useState} from 'react';
 import './App.css';
 import About from './components/About';
@@ -6,10 +8,10 @@ import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Header from './components/Header';
 import Footer from './components/Footer';
-
+//initiate the Application
 function App() {
   const [currentCategory, setCurrentCategory] = useState("about");
-
+//function to switch each section or page
 const displaySection = () => {
   switch (currentCategory) {
     case "about":
@@ -24,7 +26,7 @@ const displaySection = () => {
       return null;
   }
 };
-
+//content sections
 return (
   <div>
     <div>
@@ -43,5 +45,5 @@ return (
   </div>
 );
 }
-
+//export the App default
 export default App;

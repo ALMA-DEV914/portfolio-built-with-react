@@ -1,8 +1,9 @@
+//import React 
 import React from "react";
-
+//function to create Nav components
 function Nav(props) {
   const { currentCategory, setCurrentCategory } = props;
-
+//render the page section
   return (
     <nav>
       <ul className="flex-row">

@@ -1,6 +1,7 @@
+//import the React 
 import React from "react";
 import ProjectList from "../ProjectList";
-
+//function to generate an array of the projects with the object values
 function Portfolio() {
   const projects = [
     {
@@ -61,6 +62,7 @@ function Portfolio() {
     },
   
   ];
+  //render the project informations
   return (
     <div>
       <ProjectList projects={projects} />
@@ -68,5 +70,5 @@ function Portfolio() {
   
   );
 }
-
+//export the default portfolio
 export default Portfolio;

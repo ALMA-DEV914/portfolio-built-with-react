@@ -1,7 +1,9 @@
+//import the react 
 import React from "react";
+//import the source of images
 import computerImage from '../../assets/cover/computer.jpg';
 import githubImage from '../../assets/cover/github.jpeg';
-
+//function to render the project lists
 function ProjectList(props) {
   const { projects = [] } = props;
   return (
@@ -39,5 +41,5 @@ function ProjectList(props) {
     </main>
   );
 }
-
+//export the default project lists
 export default ProjectList;

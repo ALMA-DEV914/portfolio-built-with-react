@@ -1,5 +1,6 @@
+//import the React 
 import React from "react";
-
+//create Resume components
 function Resume() {
   return (
     <main>
@@ -37,5 +38,5 @@ function Resume() {
     </main>
   );
 }
-
+//export the Resume default
 export default Resume;

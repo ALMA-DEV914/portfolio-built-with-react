@@ -1,7 +1,8 @@
+//import react
 import React from 'react';
+//import the cover image from the path directory
 import coverImage from "../../assets/cover/z1.jpg";
-
-
+//initiate the About section component
 function About(){
     return(
         <main>
@@ -21,4 +22,5 @@ function About(){
         </main>
     );
 }
+//export the Aboit default
 export default About;
