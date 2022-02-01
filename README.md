@@ -2,7 +2,8 @@
 ## The Link and snapshot
 [The deployed Portfolio]( https://alma-dev914.github.io/portfolio-built-with-react/)
 
-<img width="1790" alt="Screen Shot 2022-01-30 at 9 37 07 PM" src="https://user-images.githubusercontent.com/65073138/151744325-55a37647-9cef-44ad-a41c-0cde310db09c.png">
+<img width="1792" alt="Screen Shot 2022-02-01 at 8 37 06 AM" src="https://user-images.githubusercontent.com/65073138/152010690-6848b1a4-c6c2-44ab-b459-c5fb001321d5.png">
+
 
 <img width="1792" alt="Screen Shot 2022-01-30 at 9 38 45 PM" src="https://user-images.githubusercontent.com/65073138/151744675-93b29356-9184-46e2-a3a8-8c3da558c408.png">
 
