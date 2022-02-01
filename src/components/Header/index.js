@@ -8,7 +8,7 @@ import logoImage from '../../assets/cover/logo-dark.png';
 function Header(props) {
   const { currentCategory, setCurrentCategory } = props;
 
-  // When the user scrolls down 20px from the top of the document, slide down the navbar
+  // When the user scrolls up 20px from the bottom of the document, slide up the navbar
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
