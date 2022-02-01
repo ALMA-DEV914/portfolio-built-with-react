@@ -5,6 +5,20 @@ import ProjectList from "../ProjectList";
 function Portfolio() {
   const projects = [
     {
+      title: "Interactive Front End",
+      image: "Interactive-Front-End.png",
+      repository: "https://github.com/ALMA-DEV914/Front-End-Interactive-User-Interface-",
+      deployment: "https://alma-dev914.github.io/Front-End-Interactive-User-Interface-/",
+      description: " Built with HTML, CSS, Javascript, Third party API, Bootstrap/Mediaqueries, Git/Github - We used this application to work together or collaborate in building this project. This application would allow user to search for a movie and could check the ratings as well as the plot of the story."
+    },
+    {
+      title: "Full-Stack Web Application",
+      image: "Full-Stack.png",
+      repository: "https://github.com/ALMA-DEV914/fixup-job-site-full-stack",
+      deployment: "https://fixup-job.herokuapp.com/jobs",
+      description: "Built with NODE.js packages like template engine Handlebars, Expess.js, MySQL, Sequelize ORM, MVC, BULMA/CSS frameworks, passport-jwt authentication. We collaborate in creating this site and turn into life with my team that are great in backend. This app will allow users to post jobs as employer or employee. Check the link above for more functionalities or features."
+    },
+    {
       title: "Budget tracker",
       image: "Budget-Tracker-PWA.png",
       repository: "https://github.com/ALMA-DEV914/PWA-Budget-Tracker",
@@ -19,13 +33,6 @@ function Portfolio() {
       description: "Built with HTML, CSS, MongoDb/Mongoose and Javascript. This application used Bootstrap and Jquery. It will allow user to share recipe/menu of their best meal. So you can either grab a menu or share your recipe of choice through discussions.This app used MongoDB to store the data from clients/users"
     },
     {
-      title: "Full-Stack Web Application",
-      image: "Full-Stack.png",
-      repository: "https://github.com/ALMA-DEV914/fixup-job-site-full-stack",
-      deployment: "https://fixup-job.herokuapp.com/jobs",
-      description: "Built with NODE.js packages like template engine Handlebars, Expess.js, MySQL, Sequelize ORM, MVC, BULMA/CSS frameworks, passport-jwt authentication. We collaborate in creating this site and turn into life with my team that are great in backend. This app will allow users to post jobs as employer or employee. Check the link above for more functionalities or features."
-    },
-    {
       title: "Weather Dashboard",
       image: "Weather-Dashboard.png",
       repository: "https://github.com/ALMA-DEV914/Weather-Dashboard",
@@ -38,13 +45,6 @@ function Portfolio() {
       repository: "https://github.com/ALMA-DEV914/Brainstorm-Challenge",
       deployment: "https://alma-dev914.github.io/Brainstorm-Challenge/",
       description: "This application used HTML, Javascript and Web API. This used a local storage to store and retrieved data. This challenge invites me to build a timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that I write.",
-    },
-    {
-      title: "Interactive Front End",
-      image: "Interactive-Front-End.png",
-      repository: "https://github.com/ALMA-DEV914/Front-End-Interactive-User-Interface-",
-      deployment: "https://alma-dev914.github.io/Front-End-Interactive-User-Interface-/",
-      description: " Built with HTML, CSS, Javascript, Third party API, Bootstrap/Mediaqueries, Git/Github - We used this application to work together or collaborate in building this project. This application would allow user to search for a movie and could check the ratings as well as the plot of the story."
     },
     {
       title: "Create Sweat Moments",
