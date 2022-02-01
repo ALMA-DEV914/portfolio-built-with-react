@@ -41,7 +41,7 @@ body {
   color: var(--light);
   font-family: 'Poiret One', cursive;
   background-image: url(https://wallpapercave.com/wp/eas6Et3.jpg);
-  overflow: auto;
+  
 }
 
 h1,
@@ -154,6 +154,7 @@ header {
   padding: 20px;
   width: 100%;
   
+  
 }
 
 header a {
@@ -227,9 +228,11 @@ li {
   display: flex;
 }
 .logo img{
-  border: none;
-  width: 80px;
-  height: 60px;
+  border-bottom: 2px double var(--primary);
+  width: 100px;
+  height: 80px;
+  margin: 0 5px;
+  box-shadow: 4px 4px 4px gray;
 }
 nav a:hover {
   text-decoration: none;
@@ -362,6 +365,7 @@ a {
   padding: 12px;
   font-size: 30px;
   color: var(--light);
+  
  
 }
 .email{
