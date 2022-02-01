@@ -1,6 +1,7 @@
 # Getting Started with Create React App
+This application requires me to build a Portfolio with React with four components section that are **About me**, **Portfolio**, **Contact**, and **Resume**. The navigation should use ***useState*** to highlight the active link. It is a *mobile-friendly* application.
 ## The Link and snapshot
-[The deployed Portfolio]( https://alma-dev914.github.io/portfolio-built-with-react/)
+[The deployed Portfolio](https://alma-dev914.github.io/portfolio-built-with-react/)
 
 <img width="1792" alt="Screen Shot 2022-02-01 at 8 37 06 AM" src="https://user-images.githubusercontent.com/65073138/152010690-6848b1a4-c6c2-44ab-b459-c5fb001321d5.png">
 
