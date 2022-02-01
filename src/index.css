@@ -1,6 +1,6 @@
 
 main {
-	margin: 4% auto;
+	margin: 10% auto;
   width: 90%;
   padding: 50px 30px;
   text-align: center;
@@ -149,17 +149,20 @@ a:hover {
   text-decoration: underline;
 }
 
+
 header {
   background: var(--dark);
   padding: 20px;
+  position: fixed;
+  top: 0;
   width: 100%;
-  
-  
+  display: block;
+  transition: top 0.3s
 }
 
 header a {
   color: var(--light);
-   
+   display: block;
 }
 .nav{
   margin-left: 20%;
