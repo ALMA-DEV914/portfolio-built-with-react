@@ -6,7 +6,7 @@ main {
   text-align: center;
 }
 :root {
-  --primary: rgb(14, 127, 179);
+  --primary: rgb(14, 154, 179);
   --secondary: #1623d8;
   --tertiary: #0fa0aa;
   --light: #fafafa;
@@ -229,7 +229,7 @@ li {
 }
 .logo img{
   border-bottom: 2px double var(--primary);
-  width: 100px;
+  width: 120px;
   height: 80px;
   margin: 0 5px;
   box-shadow: 4px 4px 4px gray;

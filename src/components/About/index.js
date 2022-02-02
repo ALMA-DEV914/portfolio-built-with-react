@@ -8,7 +8,7 @@ function About(){
         <main>
         <section className='flex-row'>
             <div className='myphoto'>
-            <img src={coverImage} className="my-2" id='me' alt="me" style={{width: '250px'}} />
+            <img src={coverImage} className="my-2" id='me' alt="me" style={{width: '280px'}} />
             <h1 id='about'>Hi! Alma here!</h1>
             <p>I am looking forward to speak with you.</p>
             
