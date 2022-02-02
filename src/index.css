@@ -414,16 +414,145 @@ a {
   text-align: center;
 
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
   main{
     width: 100%;
     padding: 20px;
 }
   .email{
-    width: 100%;
+    width: 80%;
   }
   form{
     width: 100%;
+  }
+  ul li{
+    font-size: 20px;
+  }
+  .nav{
+    margin-left: 0;
+  }
+
+  .desc{
+    color: var(--tertiary);
+  }
+  h1{
+    text-align: center;
+    color: var(--light);
+  }
+  .img-thumbnail{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+  
+  }
+  
+  .description{
+    width: 90%;
+    
+  }
+  .myphoto{
+    margin: 15px auto;
+  }
+  .overlay{
+      font-family: Verdana, sans-serif;
+      
+  }
+  .text{
+    font-size: 13px;
+    padding: 0;
+    margin:0;
+  }
+  article{
+    width: 100%;
+  }
+
+  .projects ul li{
+    margin: 5% auto;
+  }
+}
+
+@media screen and (max-width:1219px){
+  main{
+    width: 100%;
+    padding: 20px;
+}
+  .email{
+    width: 70%;
+  }
+  form{
+    width: 80%;
+  }
+  ul li{
+    font-size: 25px;
+    
+  }
+  .nav{
+    margin-left: 0;
+  }
+
+  .desc{
+    color: var(--tertiary);
+  }
+  h1{
+    text-align: center;
+    color: var(--light);
+  }
+  .img-thumbnail{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+  
+  }
+  
+  .description{
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  .myphoto{
+    margin: 15px auto;
+    background: none;
+    
+  }
+  .overlay{
+      font-family: Verdana, sans-serif;
+      
+  }
+  .text{
+    font-size: 11px;
+    padding: 0;
+    margin:0;
+  }
+  article{
+    width: 80%;
+  }
+
+  .projects ul li{
+    margin: 5% auto;
+  }
+}
+
+@media screen and (max-width:920px){
+  main{
+    width: 100%;
+    padding: 20px;
+}
+  .email{
+    width: 80%;
+    
+  }
+  form{
+    width: 80%;
   }
   ul li{
     font-size: 25px;
@@ -446,8 +575,390 @@ a {
   header{
     position: relative;
   }
+  .nav{
+    margin-left: 0;
+  }
+  .nav li{
+    margin-right: 0;
+  }
+  .description{
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+  .myphoto{
+    margin: 15px auto;
+  }
+  .overlay{
+      font-family: Verdana, sans-serif;
+      
+  }
+  .text{
+    font-size: 11px;
+    padding: 0;
+    margin:0;
+  }
+  article{
+    width: 80%;
+  }
+
+  .projects ul li{
+    margin: 5% auto;
+  }
+}
+
+@media screen and (max-width:768px){
+  main{
+    width: 100%;
+    padding: 20px;
+}
+  .email{
+    width: 80%;
+  }
+  form{
+    width: 100%;
+  }
+  ul li{
+    font-size: 20px;
+  }
+  .nav{
+    margin-left: 0;
+  }
+
+  .desc{
+    color: var(--tertiary);
+  }
+  h1{
+    text-align: center;
+    color: var(--light);
+  }
+  .img-thumbnail{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+  
+  }
+  
+  .description{
+    width: 90%;
+    
+  }
+  .myphoto{
+    margin: 15px auto;
+  }
+  .overlay{
+      font-family: Verdana, sans-serif;
+      
+  }
+  .text{
+    font-size: 13px;
+    padding: 0;
+    margin:0;
+  }
+  article{
+    width: 100%;
+  }
+
+  .projects ul li{
+    margin: 5% auto;
+  }
+}
+
+@media screen and (max-width:575px){
+  main{
+    width: 100%;
+    padding: 20px;
+}
+  .email{
+    width: 100%;
+  }
+  form{
+    width: 100%;
+  }
+  ul li{
+    font-size: 20px;
+    
+  }
+  .nav{
+    margin-left: 0;
+  }
+
+  .desc{
+    color: var(--tertiary);
+  }
+  h1{
+    text-align: center;
+    color: var(--light);
+  }
+  .img-thumbnail{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+  
+  }
+  
   .description{
     width: 100%;
+    
+  }
+  .myphoto{
+    margin: 15px auto;
+  }
+  .overlay{
+      font-family: Verdana, sans-serif;
+      
+  }
+  .text{
+    font-size: 11px;
+    padding: 0;
+    margin:0;
+  }
+  article{
+    width: 100%;
+  }
+
+  .projects ul li{
+    margin: 5% auto;
+  }
+}
+@media screen and (max-width:768px){
+  main{
+    width: 100%;
+    padding: 20px;
+}
+  .email{
+    width: 80%;
+  }
+  form{
+    width: 100%;
+  }
+  ul li{
+    font-size: 20px;
+  }
+  .nav{
+    margin-left: 0;
+  }
+
+  .desc{
+    color: var(--tertiary);
+  }
+  h1{
+    text-align: center;
+    color: var(--light);
+  }
+  .img-thumbnail{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+  
+  }
+  
+  .description{
+    width: 90%;
+    
+  }
+  .myphoto{
+    margin: 15px auto;
+  }
+  .overlay{
+      font-family: Verdana, sans-serif;
+      
+  }
+  .text{
+    font-size: 13px;
+    padding: 0;
+    margin:0;
+  }
+  article{
+    width: 100%;
+  }
+
+  .projects ul li{
+    margin: 5% auto;
+  }
+}
+
+@media screen and (max-width:768px){
+  main{
+    width: 100%;
+    padding: 20px;
+}
+  .email{
+    width: 80%;
+  }
+  form{
+    width: 100%;
+  }
+  ul li{
+    font-size: 20px;
+  }
+  .nav{
+    margin-left: 0;
+  }
+
+  .desc{
+    color: var(--tertiary);
+  }
+  h1{
+    text-align: center;
+    color: var(--light);
+  }
+  .img-thumbnail{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+  
+  }
+  
+  .description{
+    width: 90%;
+    
+  }
+  .myphoto{
+    margin: 15px auto;
+  }
+  .overlay{
+      font-family: Verdana, sans-serif;
+      
+  }
+  .text{
+    font-size: 13px;
+    padding: 0;
+    margin:0;
+  }
+  article{
+    width: 100%;
+  }
+
+  .projects ul li{
+    margin: 5% auto;
+  }
+}
+
+@media screen and (max-width:768px){
+  main{
+    width: 100%;
+    padding: 20px;
+}
+  .email{
+    width: 80%;
+  }
+  form{
+    width: 100%;
+  }
+  ul li{
+    font-size: 20px;
+  }
+  .nav{
+    margin-left: 0;
+  }
+
+  .desc{
+    color: var(--tertiary);
+  }
+  h1{
+    text-align: center;
+    color: var(--light);
+  }
+  .img-thumbnail{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+  
+  }
+  
+  .description{
+    width: 90%;
+    
+  }
+  .myphoto{
+    margin: 15px auto;
+  }
+  .overlay{
+      font-family: Verdana, sans-serif;
+      
+  }
+  .text{
+    font-size: 13px;
+    padding: 0;
+    margin:0;
+  }
+  article{
+    width: 100%;
+  }
+
+  .projects ul li{
+    margin: 5% auto;
+  }
+}
+
+@media screen and (max-width:320px){
+  main{
+    width: 100%;
+    padding: 20px;
+}
+  .email{
+    width: 100%;
+  }
+  form{
+    width: 100%;
+  }
+  ul li{
+    font-size: 20px;
+    
+  }
+  .nav{
+    margin-left: 0;
+  }
+
+  .desc{
+    color: var(--tertiary);
+  }
+  h1{
+    text-align: center;
+    color: var(--light);
+    font-size: 25px;
+  }
+  .img-thumbnail{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+  
+  }
+  
+  .description{
+    width: 100%;
+    
   }
   .myphoto{
     margin: 15px auto;
