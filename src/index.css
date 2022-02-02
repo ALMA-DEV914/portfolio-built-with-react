@@ -1,18 +1,18 @@
 
 main {
-	margin: 10% auto;
+	margin: 8% auto;
   width: 90%;
   padding: 50px 30px;
   text-align: center;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #0faa76;
+  --primary: rgb(14, 127, 179);
+  --secondary: #1623d8;
+  --tertiary: #0fa0aa;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
-  --error: rgb(228, 46, 1);
+  --error: rgb(199, 67, 34);
   --spacing-one: calc(2rem * 1.5);
   --spacing-two: calc(3rem);
   --spacing-five: calc(4.5rem);
@@ -38,9 +38,9 @@ body {
   letter-spacing: .1em;
   background-repeat: no-repeat;
   background-size: cover;
-  color: var(--light);
+  color: var(--dark);
   font-family: 'Poiret One', cursive;
-  background-image: url(https://wallpapercave.com/wp/eas6Et3.jpg);
+  background-image: url(../src/assets/cover/code.png);
   
 }
 
@@ -90,7 +90,6 @@ h6 {
 
 }
 .myphoto{
-  background-color: var(--darker);
   padding: 15px;
   border-radius: 12px;
   animation: fadeInAnimation ease 3s;
@@ -108,8 +107,7 @@ h6 {
 
 .description{
   width: 60%;
-  padding: 20px;
-  background-color: var(--light);
+  padding: 25px;
   color: #000;
   opacity: .8;
 }
@@ -118,11 +116,11 @@ h6 {
   float: left;
 }
 .projects{
-  color: var(--light);
+  color: var(--dark);
 
 }
 .projects ul li{
-  background-color: var(--darker);
+  background-color: #cccccc;
   margin: 20px 8px;
   border: 5px solid var(--light);
   border-radius: 15px;
@@ -151,7 +149,7 @@ a:hover {
 
 
 header {
-  background: var(--dark);
+  background-color: #cccccc;
   padding: 20px;
   position: fixed;
   top: 0;
@@ -161,7 +159,7 @@ header {
 }
 
 header a {
-  color: var(--light);
+  color: var(--dark);
    display: block;
 }
 .nav{
@@ -200,11 +198,10 @@ form {
   width: 50%;
   margin: 30px auto;
   text-align: left;
-  border: 10px solid var(--darker);
   padding: 20px;
-  background-color: var(--tertiary);
-  color: var(--light);
+  color: var(--dark);
   border-radius: 15px;
+  background-color: #cccccc;
 }
 
 input {
@@ -242,11 +239,11 @@ nav a:hover {
 }
 nav  li {
   cursor: pointer;
-  
+  color: var();
 }
 #me{
   border-radius: 100%;
-  border: 10px solid var(--secondary);
+  border: 20px solid #cccccc;
 }
 article{
   display: flex;
@@ -254,14 +251,14 @@ article{
   padding: 20px;
   margin: 20px auto;
   justify-content: center;
-  background-color:var(--light);
-  width: 50%;
-  opacity: .8;
+  width: 100%;
   border-radius: 15px;
+}
+article div{
+  padding: 15px;
 }
 
 #pdf{
-  background-color: var(--light);
   padding: 8px 18px;
 }
 textarea {
@@ -357,17 +354,17 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--primary);
 }
 .footer{
   text-align: center;
-  padding: 15px;
-  
+  padding: 12px;
+  background-color: #cccccc;
 }
 .footer a{
   padding: 12px;
   font-size: 30px;
-  color: var(--light);
+  color: var(--dark);
   
  
 }
@@ -414,75 +411,18 @@ a {
   text-align: center;
 
 }
-@media screen and (max-width:768px){
-  main{
-    width: 100%;
-    padding: 20px;
-}
-  .email{
-    width: 80%;
-  }
-  form{
-    width: 100%;
-  }
-  ul li{
-    font-size: 20px;
-  }
-  .nav{
-    margin-left: 0;
-  }
-
-  .desc{
-    color: var(--tertiary);
-  }
-  h1{
-    text-align: center;
-    color: var(--light);
-  }
-  .img-thumbnail{
-    width: 100%;
-    margin: 0 auto;
-  }
-  h1{
-    font-size: 2.5rem;
-  }
-  header{
-    position: relative;
-  
-  }
-  
-  .description{
-    width: 90%;
-    
-  }
-  .myphoto{
-    margin: 15px auto;
-  }
-  .overlay{
-      font-family: Verdana, sans-serif;
-      
-  }
-  .text{
-    font-size: 13px;
-    padding: 0;
-    margin:0;
-  }
-  article{
-    width: 100%;
-  }
-
-  .projects ul li{
-    margin: 5% auto;
-  }
-}
 
 @media screen and (max-width:1219px){
+  body{
+    background-image: url(https://wallpapercave.com/wp/eas6Et3.jpg);
+  }
   main{
     width: 100%;
     padding: 20px;
 }
   .email{
     width: 70%;
+    background-color: var(--light);
   }
   form{
     width: 80%;
@@ -498,10 +438,7 @@ a {
   .desc{
     color: var(--tertiary);
   }
-  h1{
-    text-align: center;
-    color: var(--light);
-  }
+
   .img-thumbnail{
     width: 100%;
     margin: 0 auto;
@@ -511,18 +448,19 @@ a {
   }
   header{
     position: relative;
-  
+    background-color: var(--darker);
+    color: var(--light);
   }
   
   .description{
     width: 90%;
     margin: 0 auto;
-    
+    background-color: var(--light);
   }
   .myphoto{
     margin: 15px auto;
     background: none;
-    
+    color: var(--light);
   }
   .overlay{
       font-family: Verdana, sans-serif;
@@ -533,22 +471,34 @@ a {
     padding: 0;
     margin:0;
   }
+  #pdf{
+    background-color: var(--light);
+  }
   article{
     width: 80%;
+    background-color: var(--light);
+    opacity: 0.8;
   }
-
+ #pro{
+   color: var(--light);
+ }
   .projects ul li{
     margin: 5% auto;
   }
 }
 
 @media screen and (max-width:920px){
+  body{
+    background-image: url(https://wallpapercave.com/wp/eas6Et3.jpg);
+
+  }
   main{
     width: 100%;
     padding: 20px;
 }
   .email{
-    width: 80%;
+    width: 70%;
+    background-color: var(--light);
     
   }
   form{
@@ -574,6 +524,8 @@ a {
   }
   header{
     position: relative;
+    background-color: var(--darker);
+    color: var(--light);
   }
   .nav{
     margin-left: 0;
@@ -584,10 +536,11 @@ a {
   .description{
     width: 80%;
     margin: 0 auto;
-    
+    background-color: var(--light);
   }
   .myphoto{
     margin: 15px auto;
+    color: var(--light);
   }
   .overlay{
       font-family: Verdana, sans-serif;
@@ -600,14 +553,23 @@ a {
   }
   article{
     width: 80%;
+    background-color: var(--light);
+    opacity: 0.8;
   }
-
+  #pdf{
+    background-color: var(--light);
+    border-radius:20px;
+  }
   .projects ul li{
     margin: 5% auto;
   }
 }
 
 @media screen and (max-width:768px){
+  body{
+    background-image: url(https://wallpapercave.com/wp/eas6Et3.jpg);
+
+  }
   main{
     width: 100%;
     padding: 20px;
@@ -641,15 +603,20 @@ a {
   }
   header{
     position: relative;
-  
+    background-color: var(--darker);
+    color: var(--light);
   }
-  
+  #pdf{
+    background-color: var(--light);
+    border-radius: 20px;
+  }
   .description{
     width: 90%;
-    
+    background-color: var(--light);
   }
   .myphoto{
     margin: 15px auto;
+    color: var(--light);
   }
   .overlay{
       font-family: Verdana, sans-serif;
@@ -662,6 +629,7 @@ a {
   }
   article{
     width: 100%;
+    background-color: var(--light);
   }
 
   .projects ul li{
@@ -670,12 +638,21 @@ a {
 }
 
 @media screen and (max-width:575px){
+  body{
+    background-image: url(https://wallpapercave.com/wp/eas6Et3.jpg);
+
+  }
   main{
     width: 100%;
     padding: 20px;
 }
   .email{
     width: 100%;
+    background-color: var(--light);opacity: 0.8;
+  }
+  #pdf{
+    background-color: var(--light);
+    border-radius: 20px;
   }
   form{
     width: 100%;
@@ -686,8 +663,9 @@ a {
   }
   .nav{
     margin-left: 0;
+    color: var(--light);
   }
-
+  
   .desc{
     color: var(--tertiary);
   }
@@ -704,15 +682,18 @@ a {
   }
   header{
     position: relative;
+    
+      background-color: var(--darker);
   
   }
   
   .description{
     width: 100%;
-    
+    background-color: var(--light);
   }
   .myphoto{
     margin: 15px auto;
+    color: var(--light);
   }
   .overlay{
       font-family: Verdana, sans-serif;
@@ -725,255 +706,8 @@ a {
   }
   article{
     width: 100%;
-  }
-
-  .projects ul li{
-    margin: 5% auto;
-  }
-}
-@media screen and (max-width:768px){
-  main{
-    width: 100%;
-    padding: 20px;
-}
-  .email{
-    width: 80%;
-  }
-  form{
-    width: 100%;
-  }
-  ul li{
-    font-size: 20px;
-  }
-  .nav{
-    margin-left: 0;
-  }
-
-  .desc{
-    color: var(--tertiary);
-  }
-  h1{
-    text-align: center;
-    color: var(--light);
-  }
-  .img-thumbnail{
-    width: 100%;
-    margin: 0 auto;
-  }
-  h1{
-    font-size: 2.5rem;
-  }
-  header{
-    position: relative;
-  
-  }
-  
-  .description{
-    width: 90%;
-    
-  }
-  .myphoto{
-    margin: 15px auto;
-  }
-  .overlay{
-      font-family: Verdana, sans-serif;
-      
-  }
-  .text{
-    font-size: 13px;
-    padding: 0;
-    margin:0;
-  }
-  article{
-    width: 100%;
-  }
-
-  .projects ul li{
-    margin: 5% auto;
-  }
-}
-
-@media screen and (max-width:768px){
-  main{
-    width: 100%;
-    padding: 20px;
-}
-  .email{
-    width: 80%;
-  }
-  form{
-    width: 100%;
-  }
-  ul li{
-    font-size: 20px;
-  }
-  .nav{
-    margin-left: 0;
-  }
-
-  .desc{
-    color: var(--tertiary);
-  }
-  h1{
-    text-align: center;
-    color: var(--light);
-  }
-  .img-thumbnail{
-    width: 100%;
-    margin: 0 auto;
-  }
-  h1{
-    font-size: 2.5rem;
-  }
-  header{
-    position: relative;
-  
-  }
-  
-  .description{
-    width: 90%;
-    
-  }
-  .myphoto{
-    margin: 15px auto;
-  }
-  .overlay{
-      font-family: Verdana, sans-serif;
-      
-  }
-  .text{
-    font-size: 13px;
-    padding: 0;
-    margin:0;
-  }
-  article{
-    width: 100%;
-  }
-
-  .projects ul li{
-    margin: 5% auto;
-  }
-}
-
-@media screen and (max-width:768px){
-  main{
-    width: 100%;
-    padding: 20px;
-}
-  .email{
-    width: 80%;
-  }
-  form{
-    width: 100%;
-  }
-  ul li{
-    font-size: 20px;
-  }
-  .nav{
-    margin-left: 0;
-  }
-
-  .desc{
-    color: var(--tertiary);
-  }
-  h1{
-    text-align: center;
-    color: var(--light);
-  }
-  .img-thumbnail{
-    width: 100%;
-    margin: 0 auto;
-  }
-  h1{
-    font-size: 2.5rem;
-  }
-  header{
-    position: relative;
-  
-  }
-  
-  .description{
-    width: 90%;
-    
-  }
-  .myphoto{
-    margin: 15px auto;
-  }
-  .overlay{
-      font-family: Verdana, sans-serif;
-      
-  }
-  .text{
-    font-size: 13px;
-    padding: 0;
-    margin:0;
-  }
-  article{
-    width: 100%;
-  }
-
-  .projects ul li{
-    margin: 5% auto;
-  }
-}
-
-@media screen and (max-width:320px){
-  main{
-    width: 100%;
-    padding: 20px;
-}
-  .email{
-    width: 100%;
-  }
-  form{
-    width: 100%;
-  }
-  ul li{
-    font-size: 20px;
-    
-  }
-  .nav{
-    margin-left: 0;
-  }
-
-  .desc{
-    color: var(--tertiary);
-  }
-  h1{
-    text-align: center;
-    color: var(--light);
-    font-size: 25px;
-  }
-  .img-thumbnail{
-    width: 100%;
-    margin: 0 auto;
-  }
-  h1{
-    font-size: 2.5rem;
-  }
-  header{
-    position: relative;
-  
-  }
-  
-  .description{
-    width: 100%;
-    
-  }
-  .myphoto{
-    margin: 15px auto;
-  }
-  .overlay{
-      font-family: Verdana, sans-serif;
-      
-  }
-  .text{
-    font-size: 11px;
-    padding: 0;
-    margin:0;
-  }
-  article{
-    width: 100%;
+    background-color: var(--light);
+    opacity: 0.8;
   }
 
   .projects ul li{

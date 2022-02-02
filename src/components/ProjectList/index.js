@@ -8,7 +8,7 @@ function ProjectList(props) {
   const { projects = [] } = props;
   return (
     <main>
-      <h1>Projects|Portfolios</h1>
+      <h1 id="pro">Projects|Portfolios</h1>
      <div className="projects">
       <ul className="flex-row">
         {projects.map((project) => (

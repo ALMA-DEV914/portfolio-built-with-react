@@ -15,8 +15,10 @@ export default function Footer(){
   
         <a href="https://stackoverflow.com/users/16756150/alma-braun" target="_blank" rel="noreferrer">
           <StackOverflow />
-        </a>
-      </div>
+        </a><br></br>
+        <p>Alma Braun at UC Berkeley Bootcamp 2021-2022</p>
+        </div>
+      
     </footer>
   
   );
