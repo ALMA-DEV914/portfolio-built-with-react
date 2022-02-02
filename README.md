@@ -6,12 +6,6 @@ This application requires me to build a Portfolio with React with four component
 <img width="1792" alt="Screen Shot 2022-02-02 at 3 21 57 AM" src="https://user-images.githubusercontent.com/65073138/152144874-4004ca12-539e-4179-a2ab-5b19afcd53ae.png">
 
 
-
-<img width="1792" alt="Screen Shot 2022-02-01 at 8 37 06 AM" src="https://user-images.githubusercontent.com/65073138/152010690-6848b1a4-c6c2-44ab-b459-c5fb001321d5.png">
-
-
-
-
 This project was bootstrapped with [Create React App](https
 ://github.com/facebook/create-react-app).
 
