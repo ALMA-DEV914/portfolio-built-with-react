@@ -229,10 +229,11 @@ li {
 }
 .logo img{
   border-bottom: 2px double var(--primary);
-  width: 120px;
+  width: 80px;
   height: 80px;
   margin: 0 5px;
   box-shadow: 4px 4px 4px gray;
+  border-radius: 100%;
 }
 nav a:hover {
   text-decoration: none;
