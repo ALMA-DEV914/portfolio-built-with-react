@@ -3,7 +3,7 @@ This application requires me to build a Portfolio with React with four component
 ## The Link and snapshot
 [The deployed Portfolio](https://alma-dev914.github.io/portfolio-built-with-react/)
 
-<img width="1792" alt="Screen Shot 2022-02-02 at 3 21 57 AM" src="https://user-images.githubusercontent.com/65073138/152144874-4004ca12-539e-4179-a2ab-5b19afcd53ae.png">
+<img width="1792" alt="Screen Shot 2022-02-02 at 10 09 05 AM" src="https://user-images.githubusercontent.com/65073138/152212469-e1e8d867-66f0-46ba-ad67-d041c53b573c.png">
 
 
 This project was bootstrapped with [Create React App](https
