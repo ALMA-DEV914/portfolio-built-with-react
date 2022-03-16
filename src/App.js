@@ -8,12 +8,15 @@ import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Home from "./components/Home";
 //initiate the Application
 function App() {
   const [currentCategory, setCurrentCategory] = useState("about");
 //function to switch each section or page
 const displaySection = () => {
   switch (currentCategory) {
+    case "home":
+      return <Home/>
     case "about":
       return <About />;
     case "portfolio":

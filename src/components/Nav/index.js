@@ -9,6 +9,13 @@ function Nav(props) {
   return (
     <nav>
       <ul className="flex-row">
+      <li
+          className={
+            currentCategory === "home" ? "mx-2 navActive" : "mx-2"
+          }
+          >
+          <span onClick={() => setCurrentCategory("home")}>Home</span>
+        </li>
         <li className={currentCategory === "about" ? "mx-2 navActive" : "mx-2"}>
           <span onClick={() => setCurrentCategory("about")}>About Me</span>
         </li>

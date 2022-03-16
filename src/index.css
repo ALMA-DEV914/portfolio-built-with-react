@@ -36,11 +36,9 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background-repeat: no-repeat;
-  background-size: cover;
   color: var(--dark);
-  font-family: 'Poiret One', cursive;
-  background-image: url(../src/assets/cover/code.png);
+  font-family: 'Roboto Slab', cursive;
+  
   
 }
 
@@ -120,11 +118,11 @@ h6 {
 
 }
 .projects ul li{
-  background-color: #cccccc;
   margin: 20px 8px;
   border: 5px solid var(--light);
   border-radius: 15px;
-  
+  background-image: url("../src/assets/cover/header.png");
+  color: #fff;
 }
 label{
   font-size: 1.5em;
@@ -149,13 +147,14 @@ a:hover {
 
 
 header {
-  background-color: #cccccc;
+  background-image: url("../src/assets/cover/header.png");
+  background-size: cover;
   padding: 20px;
-  position: fixed;
   top: 0;
   width: 100%;
   display: block;
-  transition: top 0.3s
+  color: #fff;
+  
 }
 
 header a {
@@ -360,12 +359,14 @@ a {
 .footer{
   text-align: center;
   padding: 12px;
-  background-color: #cccccc;
+  background-image: url("../src/assets/cover/header.png");
+  background-size: cover;
+  color: #fff;
 }
 .footer a{
   padding: 12px;
   font-size: 30px;
-  color: var(--dark);
+  color: var(--light);
   
  
 }
