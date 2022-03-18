@@ -2,12 +2,12 @@
 This application requires me to build a Portfolio with React with four components section that are **About me**, **Portfolio**, **Contact**, and **Resume**. The navigation should use ***useState*** to highlight the active link. It is a *mobile-friendly* application.
 ## The Link and snapshot
 [The deployed Portfolio](https://alma-dev914.github.io/portfolio-built-with-react/)
-<img width="1792" alt="Screen Shot 2022-02-02 at 1 08 56 PM" src="https://user-images.githubusercontent.com/65073138/152237976-fc567b7c-9fa0-4d8d-b041-ddbc9688629b.png">
 
+<img width="1792" alt="Screen Shot 2022-03-17 at 2 14 53 PM" src="https://user-images.githubusercontent.com/65073138/158896570-45ab0527-abda-4ba0-8936-9bae2555acad.png">
 
+<img width="1790" alt="Screen Shot 2022-03-17 at 2 15 09 PM" src="https://user-images.githubusercontent.com/65073138/158896589-99c5e254-c0c8-46e9-aef6-112018e85e1f.png">
 
-<img width="1792" alt="Screen Shot 2022-02-02 at 10 11 05 AM" src="https://user-images.githubusercontent.com/65073138/152212733-b868b00e-7007-4c7a-a53a-5c92953a1198.png">
-<img width="1792" alt="Screen Shot 2022-02-02 at 10 11 18 AM" src="https://user-images.githubusercontent.com/65073138/152212753-b4de54ed-aaf6-4b20-9a09-3b7190f52c01.png">
+<img width="1792" alt="Screen Shot 2022-03-17 at 2 16 06 PM" src="https://user-images.githubusercontent.com/65073138/158896600-67c6ea66-4790-45af-9da5-e2edb9a86b0d.png">
 
 This project was bootstrapped with [Create React App](https
 ://github.com/facebook/create-react-app).
