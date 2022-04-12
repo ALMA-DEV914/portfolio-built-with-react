@@ -1,0 +1,708 @@
+
+:root {
+  --primary: #00FF00 ;
+  --secondary: #1623d8;
+  --tertiary: #08793d;
+  --light: #fafafa;
+  --dark: #000000;
+  --darker: #111111;
+  --error: rgb(199, 67, 34);
+  --spacing-one: calc(2rem * 1.5);
+  --spacing-two: calc(3rem);
+  --spacing-five: calc(4.5rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: .1em;
+  color: var(--dark);
+  font-family: 'Roboto Slab';
+  
+  
+}
+main {
+	margin: 8% auto;
+  width: 90%;
+  padding: 50px 30px;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Georgia', sans-serif;
+  font-weight: 600;
+  margin: 5px 0;
+  line-height: 1.25;
+  
+}
+
+h1 {
+  font-size: 3.25rem;
+  
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--tertiary);
+}
+
+h3 {
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 12px;
+}
+
+h4 {
+  font-size: 1.5rem;
+  
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+#contact{
+ color: var(--darker);
+
+}
+.myphoto{
+  padding: 15px;
+  border-radius: 12px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.description{
+  width: 60%;
+  padding: 25px;
+  color: #000;
+  opacity: .8;
+}
+.code{
+  width: 100px;
+  float: left;
+}
+.projects{
+  color: var(--dark);
+  display: flex;
+}
+.projects ul li{
+  margin: 20px 8px;
+  border-radius: 15px;
+  color: #fff;
+  width: 100%;
+  
+}
+label{
+  font-size: .8em;
+}
+.resume{
+  color: var(--darker);
+}
+p {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+header {
+  background-image: url("../src/assets/cover/header.png");
+  background-size: cover;
+  padding: 20px;
+  top: 0;
+  width: 100%;
+  display: block;
+  color: #fff;
+  
+}
+
+header a {
+  color: var(--dark);
+   display: block;
+}
+.nav{
+  margin-left: 20%;
+ 
+}
+.port{
+  text-align: center;
+}
+button {
+  cursor: pointer;
+  float: right;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: .8;
+
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+
+}
+.pro-decs{
+  background-image: url("../src/assets/cover/header.png");
+  padding: 15px;
+}
+span[role="img"] {
+  cursor: default;
+}
+
+form {
+  width: 50%;
+  margin: 30px auto;
+  text-align: left;
+  padding: 20px;
+  color: var(--dark);
+  border-radius: 15px;
+  background-color: #cccccc;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.55rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  width: 100%;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+li {
+  list-style: none;
+  font-size: 1.5rem;
+  
+}
+.logo{
+  display: flex;
+}
+.logo img{
+  border-bottom: 2px double var(--primary);
+  width: 80px;
+  height: 80px;
+  margin: 0 5px;
+  box-shadow: 4px 4px 4px gray;
+  border-radius: 100%;
+}
+nav a:hover {
+  text-decoration: none;
+}
+nav  li {
+  cursor: pointer;
+  color: var();
+}
+#me{
+  border-radius: 100%;
+  border: 20px solid #cccccc;
+}
+article{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px auto;
+  justify-content: center;
+  width: 100%;
+  border-radius: 15px;
+}
+article div{
+  padding: 15px;
+}
+
+#pdf{
+  padding: 8px 18px;
+}
+textarea {
+	width: 100%;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
+
+
+.my-2 {
+  margin-top: var(--spacing-two);
+  margin-bottom: var(--spacing-two);
+}
+
+
+.px-2 {
+  padding-right: var(--spacing-two);
+  padding-left: var(--spacing-two);
+}
+
+.py-2 {
+  padding-top: var(--spacing-two);
+  padding-bottom: var(--spacing-two);
+}
+
+.img-thumbnail {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+#icons img{
+  margin: 0 10px;
+  border: none;
+  padding: 4px;
+  
+}
+.btn{
+  border-radius: 50px;
+  background: none;
+  color: var(--light);
+  font-size: 25px;
+  margin: 12px;
+  
+}
+.text{
+  color: #000;
+}
+#icons{
+  justify-content: center;
+  font-family: Verdana, sans-serif;
+  }
+
+#icons span{
+    font-size: 12px;
+    
+  }
+button {
+	background: var(--tertiary);
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 22px;
+	font-weight: 800;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
+
+a {
+	border-radius: 5px;
+	color: var(--tertiary);
+	font-weight: 800;
+	margin-left: -2px;
+	margin-right: -2px;
+  font-size: 22px;
+	
+}
+
+.navActive {
+  color: var(--primary);
+}
+.footer{
+  text-align: center;
+  padding: 12px;
+  background-image: url("../src/assets/cover/header.png");
+  background-size: cover;
+  color: #fff;
+}
+.footer a{
+  padding: 12px;
+  font-size: 30px;
+  color: var(--light);
+  
+ 
+}
+.email{
+  padding: 20px;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+
+}
+.education{
+  width: 40%;
+  margin: 0 3%;
+}
+.edu-history{
+  width: 50%;
+}
+
+@media screen and (max-width:1219px){
+  body{
+    background-image: url(https://wallpapercave.com/wp/eas6Et3.jpg);
+  }
+  main{
+    width: 100%;
+    padding: 20px;
+}
+  .email{
+    width: 70%;
+    background-color: var(--light);
+  }
+  form{
+    width: 80%;
+  }
+  .nav{
+    margin-left: 0;
+  }
+
+  .desc{
+    color: var(--tertiary);
+  }
+
+  .img-thumbnail{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+    background-color: var(--darker);
+    color: var(--light);
+  }
+  
+  .description{
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--light);
+  }
+  .myphoto{
+    margin: 15px auto;
+    background: none;
+    color: var(--light);
+  }
+  .education{
+    width: 100%;
+  }
+
+  .description, .edu-history{
+    width: 100%;
+    background-color: var(--light);
+    margin: 2% 2%;
+    opacity: 0.8;
+    padding: 12px;
+  }
+  .text{
+    padding: 0;
+    margin:0;
+  }
+  #pdf{
+    background-color: var(--light);
+  }
+  article{
+    width: 80%;
+    background-color: var(--light);
+    opacity: 0.8;
+  }
+ #pro{
+   color: var(--light);
+ }
+  .projects ul li{
+    margin: 5% auto;
+  }
+}
+
+@media screen and (max-width:920px){
+  body{
+    background-image: url(https://wallpapercave.com/wp/eas6Et3.jpg);
+
+  }
+  main{
+    width: 100%;
+    padding: 20px;
+}
+  .email{
+    width: 70%;
+    background-color: var(--light);
+    
+  }
+  form{
+    width: 80%;
+  }
+  
+  .desc{
+    color: var(--tertiary);
+  }
+  h1{
+    text-align: center;
+    color: var(--light);
+  }
+  .img-thumbnail{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+    background-color: var(--darker);
+    color: var(--light);
+  }
+  .nav{
+    margin-left: 0;
+  }
+  .nav li{
+    margin-right: 0;
+  }
+  .description{
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--light);
+  }
+  .myphoto{
+    margin: 15px auto;
+    color: var(--light);
+  }
+  .education{
+    width: 100%;
+  }
+
+  .description, .edu-history{
+    width: 100%;
+    background-color: var(--light);
+    margin: 2% 2%;
+    opacity: 0.8;
+    padding: 12px;
+  }
+
+  article{
+    width: 80%;
+    background-color: var(--light);
+    opacity: 0.8;
+  }
+  #pdf{
+    background-color: var(--light);
+    border-radius:20px;
+  }
+  .projects ul li{
+    margin: 5% auto;
+  }
+}
+
+@media screen and (max-width:768px){
+  body{
+    background-image: url(https://wallpapercave.com/wp/eas6Et3.jpg);
+
+  }
+  main{
+    width: 100%;
+    padding: 20px;
+}
+  .email{
+    width: 80%;
+  }
+  form{
+    width: 100%;
+  }
+
+  .nav{
+    margin-left: 0;
+  }
+
+  .desc{
+    color: var(--tertiary);
+  }
+  h1{
+    text-align: center;
+    color: var(--light);
+  }
+  .img-thumbnail{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+    background-color: var(--darker);
+    color: var(--light);
+  }
+  #pdf{
+    background-color: var(--light);
+    border-radius: 20px;
+  }
+  .description{
+    width: 90%;
+    background-color: var(--light);
+  }
+  .myphoto{
+    margin: 15px auto;
+    color: var(--light);
+  }
+  .education{
+    width: 100%;
+  }
+
+  .description, .edu-history{
+    width: 100%;
+    background-color: var(--light);
+    margin: 2% 2%;
+    opacity: 0.8;
+    padding: 12px;
+  }
+  .text{
+    padding: 0;
+    margin:0;
+  }
+  article{
+    width: 100%;
+    background-color: var(--light);
+  }
+
+  .projects ul li{
+    margin: 5% auto;
+  }
+}
+
+@media screen and (max-width:575px){
+  body{
+    background-image: url(https://wallpapercave.com/wp/eas6Et3.jpg);
+
+  }
+  main{
+    width: 100%;
+    padding: 20px;
+  
+  }  
+  .email{
+    width: 100%;
+    background-color: var(--light);opacity: 0.8;
+  }
+  #pdf{
+    background-color: var(--light);
+    border-radius: 20px;
+  }
+  form{
+    width: 100%;
+  }
+
+  .nav{
+    margin-left: 0;
+    color: var(--light);
+  }
+  
+  .desc{
+    color: var(--tertiary);
+  }
+  h1{
+    text-align: center;
+    color: var(--light);
+  }
+  .img-thumbnail{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  header{
+    position: relative;
+    
+      background-color: var(--darker);
+  
+  }
+  .education{
+    width: 100%;
+  }
+
+  .description, .edu-history{
+    width: 100%;
+    background-color: var(--light);
+    margin: 2% 2%;
+    opacity: 0.8;
+    padding: 12px;
+  }
+  .myphoto{
+    margin: 15px auto;
+    color: var(--light);
+  }
+  
+  article{
+    width: 100%;
+    background-color: var(--light);
+    opacity: 0.8;
+  }
+
+  .projects ul li{
+    margin: 5% auto;
+    width: 100%;
+  }
+  .container{
+    display: block;
+  }
+
+  
+}
