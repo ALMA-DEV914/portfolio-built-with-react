@@ -1,14 +1,8 @@
 
-main {
-	margin: 8% auto;
-  width: 90%;
-  padding: 50px 30px;
-  text-align: center;
-}
 :root {
-  --primary: rgb(14, 154, 179);
+  --primary: #00FF00 ;
   --secondary: #1623d8;
-  --tertiary: #0fa0aa;
+  --tertiary: #08793d;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -16,8 +10,6 @@ main {
   --spacing-one: calc(2rem * 1.5);
   --spacing-two: calc(3rem);
   --spacing-five: calc(4.5rem);
-  
-
 }
 
 * {
@@ -32,16 +24,21 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
   color: var(--dark);
-  font-family: 'Roboto Slab', cursive;
+  font-family: 'Roboto Slab';
   
   
 }
-
+main {
+	margin: 8% auto;
+  width: 90%;
+  padding: 50px 30px;
+  text-align: center;
+}
 h1,
 h2,
 h3,
@@ -115,18 +112,17 @@ h6 {
 }
 .projects{
   color: var(--dark);
-
+  display: flex;
 }
 .projects ul li{
   margin: 20px 8px;
-  border: 5px solid var(--light);
   border-radius: 15px;
-  background-image: url("../src/assets/cover/header.png");
   color: #fff;
+  width: 100%;
   
 }
 label{
-  font-size: 1.5em;
+  font-size: .8em;
 }
 .resume{
   color: var(--darker);
@@ -137,7 +133,7 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--primary);
   text-decoration: none;
   font-weight: bold;
 }
@@ -189,7 +185,10 @@ img {
   border-radius: 8px;
 
 }
-
+.pro-decs{
+  background-image: url("../src/assets/cover/header.png");
+  padding: 15px;
+}
 span[role="img"] {
   cursor: default;
 }
@@ -273,6 +272,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   
+  
 }
 .space-between {
   justify-content: space-between;
@@ -317,11 +317,15 @@ textarea {
   
 }
 .btn{
-  border: 1px solid var(--light);
-  margin: 12px 18px;
-  padding: 8px 16px;
   border-radius: 50px;
-  background-color: var(--darker);
+  background: none;
+  color: var(--light);
+  font-size: 25px;
+  margin: 12px;
+  
+}
+.text{
+  color: #000;
 }
 #icons{
   justify-content: center;
@@ -381,38 +385,15 @@ a {
 .container {
   position: relative;
   width: 100%;
+  display: flex;
 
 }
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: var(--light);
-
+.education{
+  width: 40%;
+  margin: 0 3%;
 }
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: var(--darker);
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-
+.edu-history{
+  width: 50%;
 }
 
 @media screen and (max-width:1219px){
@@ -429,10 +410,6 @@ a {
   }
   form{
     width: 80%;
-  }
-  ul li{
-    font-size: 25px;
-    
   }
   .nav{
     margin-left: 0;
@@ -465,12 +442,18 @@ a {
     background: none;
     color: var(--light);
   }
-  .overlay{
-      font-family: Verdana, sans-serif;
-      
+  .education{
+    width: 100%;
+  }
+
+  .description, .edu-history{
+    width: 100%;
+    background-color: var(--light);
+    margin: 2% 2%;
+    opacity: 0.8;
+    padding: 12px;
   }
   .text{
-    font-size: 11px;
     padding: 0;
     margin:0;
   }
@@ -507,10 +490,7 @@ a {
   form{
     width: 80%;
   }
-  ul li{
-    font-size: 25px;
-    
-  }
+  
   .desc{
     color: var(--tertiary);
   }
@@ -545,15 +525,18 @@ a {
     margin: 15px auto;
     color: var(--light);
   }
-  .overlay{
-      font-family: Verdana, sans-serif;
-      
+  .education{
+    width: 100%;
   }
-  .text{
-    font-size: 11px;
-    padding: 0;
-    margin:0;
+
+  .description, .edu-history{
+    width: 100%;
+    background-color: var(--light);
+    margin: 2% 2%;
+    opacity: 0.8;
+    padding: 12px;
   }
+
   article{
     width: 80%;
     background-color: var(--light);
@@ -583,9 +566,7 @@ a {
   form{
     width: 100%;
   }
-  ul li{
-    font-size: 20px;
-  }
+
   .nav{
     margin-left: 0;
   }
@@ -621,12 +602,18 @@ a {
     margin: 15px auto;
     color: var(--light);
   }
-  .overlay{
-      font-family: Verdana, sans-serif;
-      
+  .education{
+    width: 100%;
+  }
+
+  .description, .edu-history{
+    width: 100%;
+    background-color: var(--light);
+    margin: 2% 2%;
+    opacity: 0.8;
+    padding: 12px;
   }
   .text{
-    font-size: 13px;
     padding: 0;
     margin:0;
   }
@@ -648,7 +635,8 @@ a {
   main{
     width: 100%;
     padding: 20px;
-}
+  
+  }  
   .email{
     width: 100%;
     background-color: var(--light);opacity: 0.8;
@@ -660,10 +648,7 @@ a {
   form{
     width: 100%;
   }
-  ul li{
-    font-size: 20px;
-    
-  }
+
   .nav{
     margin-left: 0;
     color: var(--light);
@@ -689,24 +674,22 @@ a {
       background-color: var(--darker);
   
   }
-  
-  .description{
+  .education{
+    width: 100%;
+  }
+
+  .description, .edu-history{
     width: 100%;
     background-color: var(--light);
+    margin: 2% 2%;
+    opacity: 0.8;
+    padding: 12px;
   }
   .myphoto{
     margin: 15px auto;
     color: var(--light);
   }
-  .overlay{
-      font-family: Verdana, sans-serif;
-      
-  }
-  .text{
-    font-size: 11px;
-    padding: 0;
-    margin:0;
-  }
+  
   article{
     width: 100%;
     background-color: var(--light);
@@ -715,5 +698,11 @@ a {
 
   .projects ul li{
     margin: 5% auto;
+    width: 100%;
   }
+  .container{
+    display: block;
+  }
+
+  
 }

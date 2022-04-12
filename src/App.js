@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import Home from "./components/Home";
 //initiate the Application
 function App() {
-  const [currentCategory, setCurrentCategory] = useState("about");
+  const [currentCategory, setCurrentCategory] = useState("home");
 //function to switch each section or page
 const displaySection = () => {
   switch (currentCategory) {

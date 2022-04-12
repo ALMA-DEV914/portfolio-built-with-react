@@ -1,8 +1,5 @@
 //import the react 
 import React from "react";
-//import the source of images
-import computerImage from '../../assets/cover/computer.jpg';
-import githubImage from '../../assets/cover/github.jpeg';
 //function to render the project lists
 function ProjectList(props) {
   const { projects = [] } = props;
@@ -15,26 +12,25 @@ function ProjectList(props) {
           <li key={project.title}>
             <h3>{project.title}</h3><br></br>
             <div className="container">
+           <div className="description">
+              <div className="text">{project.description}</div>
+            </div>
+            <div className="pro-decs" id="icons">
             <img alt="projects" className="img-thumbnail mx-2"
               src={require(`../../assets/${project.image}`)}
             ></img>
-            <div className="overlay">
-              <div className="text">{project.description}</div>
-            </div>
-            </div>
-            <div className="flex-row" id="icons">
-            <p className="btn"><a href={project.deployment} target="_blank" rel="noreferrer">
-              {" "}<span>View the App</span>
-              <img src={computerImage} className='my-2' style={{width: '40px'}} alt='cover'/> 
+            <button><a href={project.deployment} target="_blank" rel="noreferrer">
+              {" "}<span className="btn">View the App</span>
             </a>
-            </p>
-            <p className="btn">
+            </button>
+            <button >
             <a href={project.repository} target="_blank" rel="noreferrer">
-              {" "}<span>Source code</span>
-              <img src={githubImage} className='my-2' style={{width: '40px'}} alt='cover'/>
-            </a></p>
+              {" "}<span className="btn">Source code</span>
+            </a></button>
+            </div>
             </div>
           </li>
+        
         ))}
       </ul>
     </div>

@@ -2,6 +2,8 @@
 import React from 'react';
 //import the cover image from the path directory
 import coverImage from "../../assets/cover/z1.jpg";
+import certificate from "../../assets/certificate.png";
+
 //initiate the About section component
 function About(){
     return(
@@ -20,7 +22,19 @@ function About(){
           <p>I consistently work on development process to provide an informative, user-friendly and effective strategy to provide companies with the message or goal they are hoping to accomplish. This development process is tailored to meet the needs of small, medium and large size businesses and enterprises.</p>
         </div>
         </section>
+        <section className='flex-row'>
+            <div className='edu-history'>
+            <p>Have knowledge in HTML, CSS, JAVASCRIPT,Web Design, REACT, SQL, NoSQL, and NODE.
+          Alma is currently signed up as a Freelancer working with clients to do some debugging and features functionalities on a web application.
+          Enjoys being challenged and engaged with projects that require
+          to work outside her comfort zone and knowledge set, especially while collaborating with a team. She has a passion to be a part of growth in providing a good services and a great user experienced.</p>
+        </div>
+        <div className='education'>
+            <img src={certificate} alt='certificate' className='certicate' />
+            </div>
+        </section>
         </main>
+        
     );
 }
 //export the Aboit default

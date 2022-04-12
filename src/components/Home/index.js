@@ -6,6 +6,7 @@ import homeImage from "../../assets/cover/port.jpeg";
 function Home(){
     return(
         <main>
+            <h1>Welcome to my</h1>
        <img src={homeImage} className="my-2" alt="homepage"/>
         
         </main>

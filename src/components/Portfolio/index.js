@@ -5,6 +5,13 @@ import ProjectList from "../ProjectList";
 function Portfolio() {
   const projects = [
     {
+      title: "MERN Stack Application",
+      image: "mern-stack.png",
+      repository: "https://github.com/ALMA-DEV914/tutor-central-mern",
+      deployment: "https://tutor-central.herokuapp.com/",
+      description: " Built This app use React, React Dom, MongoDB, GraphQL, Apollo, Stripe, Bootstrap, JWT- A marketplace for tutors and students to connect. Sometimes you just need an hour of support with a trusted tutor to solve a challenge. Our marketplace allows you to make that connection quickly and easily. As a Student I want to be able to search for Tutors that are experts in the subject for which I need help and coordinate time with them to resolve my question for a reasonable fee. As a Tutor I want to be able to present my skills and past tutoring in an attractive marketplace where Students can find me and connect easily so that I can provide support to them."
+    },
+    {
       title: "Interactive Front End",
       image: "Interactive-Front-End.png",
       repository: "https://github.com/ALMA-DEV914/Front-End-Interactive-User-Interface-",
