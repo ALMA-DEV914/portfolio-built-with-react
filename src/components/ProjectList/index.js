@@ -10,9 +10,9 @@ function ProjectList(props) {
       <ul className="flex-row">
         {projects.map((project) => (
           <li key={project.title}>
-            <h3>{project.title}</h3><br></br>
             <div className="container">
            <div className="description">
+           <h3>{project.title}</h3><br></br>
               <div className="text">{project.description}</div>
             </div>
             <div className="pro-decs" id="icons">

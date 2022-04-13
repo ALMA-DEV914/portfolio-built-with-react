@@ -115,7 +115,7 @@ h6 {
   display: flex;
 }
 .projects ul li{
-  margin: 20px 8px;
+  margin: 5% auto;
   border-radius: 15px;
   color: #fff;
   width: 100%;
