@@ -24,8 +24,7 @@ function About(){
         </section>
         <section className='flex-row'>
             <div className='edu-history'>
-            <p>Have knowledge in HTML, CSS, JAVASCRIPT,Web Design, REACT, SQL, NoSQL, and NODE.
-          Alma is currently signed up as a Freelancer working with clients to do some debugging and features functionalities on a web application.
+            <p>Have knowledge in HTML, CSS, JAVASCRIPT, Web Design, REACT, SQL, NoSQL, Express.js, REST API's, MongoDB, and NODE.
           Enjoys being challenged and engaged with projects that require
           to work outside her comfort zone and knowledge set, especially while collaborating with a team. She has a passion to be a part of growth in providing a good services and a great user experienced.</p>
         </div>
