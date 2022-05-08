@@ -1,7 +1,7 @@
 //import react
 import React from 'react';
 //import the cover image from the path directory
-import coverImage from "../../assets/cover/z1.jpg";
+import coverImage from "../../assets/cover/myphoto.png";
 import certificate from "../../assets/certificate.png";
 
 //initiate the About section component
